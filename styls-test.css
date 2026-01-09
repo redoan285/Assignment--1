@@ -1,0 +1,298 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    color: #0f172a;
+    background: #ffffff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    
+}
+
+nav ul{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.bindo{
+    
+width: 12px;
+height: 12px;
+    background-color: #30B868;
+    border-radius: 1000px;
+    opacity: 0.4;
+}
+
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+}
+
+.nav-btn {
+   padding: 12px 16px;
+    border-radius: 4px;
+background: 
+#30B868;
+border: none;
+cursor: pointer;
+color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-style: Semi Bold;
+font-size: 16px;
+font-weight: 600;
+}
+
+.nav-btn:hover {
+    opacity: 0.9;
+    background-color: rgb(76, 222, 76);
+    color: black;
+}
+
+
+
+.banner {
+    position: relative;
+    height: 90vh;
+    background: url("hero-bg.png") ;
+}
+
+.banner-overlay {
+    position: absolute;
+    inset: 0;
+    
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 140px;
+    text-align: center;
+    color: white;
+}
+
+.badge {
+      background: whitesmoke;
+    color: #22c55e;
+    
+width: 229px;
+height: 35px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 6px;
+padding: 8px 12px 8px 12px;
+border-radius: 1000px;
+}
+
+.badge:hover {
+    opacity: 0.9;
+    background-color: rgb(76, 222, 76);
+    color: black;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.banner h1 span {
+    color: #22c55e;
+}
+
+.banner p {
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.banner-buttons a {
+    margin: 0 10px;
+}
+
+    
+.btn-primary {
+     padding: 12px 16px;
+    border-radius: 4px;
+background: 
+#30B868;
+border: none;
+cursor: pointer;
+color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-style: Semi Bold;
+font-size: 16px;
+font-weight: 600;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 10px;
+}
+
+
+.btn-primary:hover {
+    opacity: 0.9;
+    background-color: rgb(76, 222, 76);
+    color: black;
+}
+.btn-outline {
+    border: 1px solid #cbd5e1;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.Notes-cards {
+    display: flex;
+    gap: 25px;
+    flex-wrap: nowrap; 
+    overflow-x: auto;   
+     
+}
+
+
+.Notes h2 {
+    font-size: 32px;
+    
+}
+.title {
+    text-align: center;
+}
+
+
+.subtitle {
+    color: #64748b;
+    margin: 15px 0 50px;
+}
+
+
+.card {
+   border-radius: 8px;
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+background: rgb(237, 231, 231);
+padding: 24px;
+}
+
+.icon {
+
+    width: 48px;
+    height: 48px;
+    margin-bottom: 15px;
+
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SOLUTION */
+.solution {
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    gap: 60px;
+}
+
+.solution-left .circle {
+    width: 260px;
+    height: 260px;
+    background: #dcfce7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.small-title {
+    color: #22c55e;
+    font-weight: 600;
+}
+
+.solution h2 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.solution ul {
+    list-style: none;
+}
+
+.solution li {
+    margin: 12px 0;
+}
+
+
+.cta {
+    background: #f8fafc;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.cta h2 {
+    font-size: 32px;
+}
+
+.cta p {
+    margin: 15px 0 25px;
+    color: #475569;
+}
+
+.cta small {
+    display: block;
+    margin-top: 12px;
+    color: #64748b;
+}
+
+.btn-cta {
+padding: 12px 16px;
+border-radius: 4px;
+background: 
+#30B868;
+border: none;
+cursor: pointer;
+color: rgba(255, 255, 255, 1);
+font-style: Semi Bold;
+font-size: 16px;
+font-weight: 600;
+gap: 10px;
+}
+
+footer {
+    background: #020617;
+    color: #cbd5e1;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+}
