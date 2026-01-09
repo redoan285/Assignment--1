@@ -123,6 +123,11 @@ border-radius: 1000px;
     color: #22c55e;
 }
 
+.btn-outline:hover {
+    opacity: 0.9;
+    background-color: rgb(76, 222, 76);
+    color: black;
+}
 .banner p {
     color: #cbd5e1;
     margin-bottom: 30px;
@@ -287,6 +292,11 @@ font-style: Semi Bold;
 font-size: 16px;
 font-weight: 600;
 gap: 10px;
+}
+.btn-cta:hover {
+    opacity: 0.9;
+    background-color: rgb(76, 222, 76);
+    color: black;
 }
 
 footer {
